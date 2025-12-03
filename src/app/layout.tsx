@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Clinical Assessment Tool",
+  title: "Depth Lens",
   description: "A psychodynamic, PDM-2–inspired self-assessment tool.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
